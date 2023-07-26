@@ -496,6 +496,18 @@ form .btn2{
 nav .fas{
     display: none;
 }
+@media screen and (max-width: 768px) {
+        .info {
+            text-align: center;         
+        }
+        .img-box {
+            text-align: center;
+        }
+        .main-img {
+                width: 100%; 
+        }
+}
+
 @media only screen and (max-width: 600px) {
     .img-box #optionalstuff {
         visibility: hidden;
